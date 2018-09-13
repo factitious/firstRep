@@ -1,7 +1,7 @@
 ---
 title: "Main Analysis"
-author: "Lakens"
-date: "17 juni 2018"
+author: "factitious"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
 ---
 
@@ -19,7 +19,7 @@ Here, we analyze a simple dataset of a Stroop experiment. Students in an introdu
 # 
 # write.table(stroop_data, file = "stroop.csv", quote=F, row.names=F)
 
-stroop_data <- read.csv("stroop.csv", sep = " ", header = TRUE)
+stroop_data <- read.csv("../Data/stroop.csv", sep = " ", header = TRUE)
 
 ```
 
